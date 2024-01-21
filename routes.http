@@ -1,0 +1,32 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+
+{
+  "title": "Video de javascript",
+  "description": "Neste video vamso ver os fundamentos do javascript usando a tecnologia javascript",
+  "duration": 180
+}
+
+
+###
+
+GET http://localhost:3333/videos
+
+
+###
+
+PUT http://localhost:3333/videos/76a7e483-3599-4ad5-8124-a91feb0de0a5
+Content-type: application/json
+
+
+{
+  "title": "Video numero 3",
+  "description": "Este video e destinado para todos os alunos do ecosistema node.js",
+  "duration": 180
+}
+
+
+###
+
+DELETE http://localhost:3333/videos/76a7e483-3599-4ad5-8124-a91feb0de0a5
